@@ -1,0 +1,179 @@
+#top-header {
+    background-image: radial-gradient(circle, rgba(241, 227, 191, 1), rgba(229, 201, 128, 1));
+    font-size: 14px;
+    padding: 5px 10px 10px 10px;
+    position: fixed; /* Fixes the header to stay at the top of the screen */
+    top: 0;          /* Aligns the header at the very top of the viewport */
+    left: 0;         /* Ensures it starts at the left edge of the screen */
+    width: 100%;     /* Makes the header span the full width of the screen */
+    z-index: 1000;   /* Ensures it stays above other content */
+    text-align: center; /* Keeps the text centered within the header */
+    box-sizing: border-box; /* Ensures padding doesn't affect width calculation */
+}
+
+#top-btn{
+    font-size: 13px;
+}
+
+#Nav-Bar{
+    color:white;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+.Model-Y2, .Model-3, .CyberTruck, .Model-X, .Model-S, .Solar-Panels, .Solar-Roof {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70vh;
+    color: white;
+    font-size: 40px;
+    position: relative;
+}
+
+.Model-Y h1, .Model-Y2 h1, .Model-3 h1, .CyberTruck h1, .Model-X h1, .Model-S h1, .Solar-Panels h1, .Solar-Roof h1 {
+    margin-bottom: 0;
+    font-size: 70px;
+}
+
+.Model-Y p, .Model-Y2 p, .Model-3 p, .CyberTruck p, .Model-X p, .Model-S p, .Solar-Panels p, .Solar-Roof p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+
+.Model-Y{
+    background-image: url(Pictures/Homepage-Model-Y-Desktop-NA-v3.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    color: white;
+    font-size: 40px;
+    
+
+}
+
+.Model-Y2{
+    background-image: url(Pictures/Homepage-Model-Y-2-Desktop-NA.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    color: white;
+    font-size: 40px;
+}
+
+.Model-3{
+    background-image: url(Pictures/Homepage-Model-3-Desktop-US.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    color: white;
+    font-size: 40px;
+}
+
+.CyberTruck{
+    background-image: url(Pictures/Homepage-Cybertruck-Desktop-v3.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    color: white;
+    font-size: 40px;
+}
+
+.Model-X{
+    background-image: url(Pictures/Homepage-Model-X-Desktop-US.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    color: white;
+    font-size: 40px;
+}
+
+.Model-S{
+    background-image: url(Pictures/Homepage-Model-S-Desktop-US.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    color: white;
+    font-size: 40px;
+}
+
+.Solar-Panels{
+    background-image: url(Pictures/Homepage-SolarPanels-01-Desktop.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    color: white;
+    font-size: 40px;
+}
+
+.Solar-Roof{
+    background-image: url(Pictures/Homepage-SolarRoof-Desktop-US.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    color: white;
+    font-size: 40px;
+}
+
+.Power-Wall{
+    background-image: url(Pictures/Homepage-Powerwall-Desktop-US.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    color: white;
+    font-size: 40px;
+}
+
+.Accessories{
+    background-image: url(Pictures/Homepage-Accessories-Desktop-US.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    color: white;
+    font-size: 40px;
+}
+
+.Terms-Conditions{
+    color: darkslategray;
+    font-size: 14px;
+    text-align: center;
+}
+
+.Test-Drive{
+        background-color: white;
+        color: black;
+        font-size: 16px;
+        padding: 5px 10px 10px 10px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        text-align: center;
+}
+
+
+footer{
+    color: darkslategray;
+    font-size: 14px;
+    text-align: center;
+
+}
